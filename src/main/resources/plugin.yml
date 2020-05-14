@@ -1,0 +1,17 @@
+name: DontDie
+version: ${project.version}
+main: com.laurensk.DontDie
+api-version: 1.13
+authors: [Laurens]
+description: "DontDie - Prevent you from dying for 10 seconds"
+
+commands:
+  dd:
+    description: Activate DontDie
+    usage: "/dd "
+  dd enable:
+    description: Enable DontDie Plugin
+    usage: "/dd enable"
+  dd disable:
+    description: Disable DontDie Plugin
+    usage: /dd disable
